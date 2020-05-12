@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Atmel Studio Solution File, Format Version 11.00
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "GPIO", "GPIO\GPIO.cproj", "{48620AE4-BF03-4BC7-B90A-1AA89C4C511D}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "UART", "UART\UART.cproj", "{08002409-345F-4C1A-834E-81C88538DC76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -13,6 +15,10 @@ Global
 		{48620AE4-BF03-4BC7-B90A-1AA89C4C511D}.Debug|AVR.Build.0 = Debug|AVR
 		{48620AE4-BF03-4BC7-B90A-1AA89C4C511D}.Release|AVR.ActiveCfg = Release|AVR
 		{48620AE4-BF03-4BC7-B90A-1AA89C4C511D}.Release|AVR.Build.0 = Release|AVR
+		{08002409-345F-4C1A-834E-81C88538DC76}.Debug|AVR.ActiveCfg = Debug|AVR
+		{08002409-345F-4C1A-834E-81C88538DC76}.Debug|AVR.Build.0 = Debug|AVR
+		{08002409-345F-4C1A-834E-81C88538DC76}.Release|AVR.ActiveCfg = Release|AVR
+		{08002409-345F-4C1A-834E-81C88538DC76}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
