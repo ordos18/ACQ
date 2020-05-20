@@ -9,6 +9,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADC", "ADC\ADC.cproj", "{94
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADC_OnInterrupts", "ADC_OnInterrupts\ADC_OnInterrupts.cproj", "{50927FA3-B508-479D-9BC5-278A817A1595}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADC_OnDMA", "ADC_OnDMA\ADC_OnDMA.cproj", "{5B210F82-313D-44A5-BF7B-EFB5CA52E8E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -31,6 +33,10 @@ Global
 		{50927FA3-B508-479D-9BC5-278A817A1595}.Debug|AVR.Build.0 = Debug|AVR
 		{50927FA3-B508-479D-9BC5-278A817A1595}.Release|AVR.ActiveCfg = Release|AVR
 		{50927FA3-B508-479D-9BC5-278A817A1595}.Release|AVR.Build.0 = Release|AVR
+		{5B210F82-313D-44A5-BF7B-EFB5CA52E8E0}.Debug|AVR.ActiveCfg = Debug|AVR
+		{5B210F82-313D-44A5-BF7B-EFB5CA52E8E0}.Debug|AVR.Build.0 = Debug|AVR
+		{5B210F82-313D-44A5-BF7B-EFB5CA52E8E0}.Release|AVR.ActiveCfg = Release|AVR
+		{5B210F82-313D-44A5-BF7B-EFB5CA52E8E0}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
