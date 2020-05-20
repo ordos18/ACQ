@@ -7,6 +7,8 @@ Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "UART", "UART\UART.cproj", "
 EndProject
 Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADC", "ADC\ADC.cproj", "{94C5A9C2-7A35-4EF6-A56F-C97C08512193}"
 EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "ADC_OnInterrupts", "ADC_OnInterrupts\ADC_OnInterrupts.cproj", "{50927FA3-B508-479D-9BC5-278A817A1595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|AVR = Debug|AVR
@@ -25,6 +27,10 @@ Global
 		{94C5A9C2-7A35-4EF6-A56F-C97C08512193}.Debug|AVR.Build.0 = Debug|AVR
 		{94C5A9C2-7A35-4EF6-A56F-C97C08512193}.Release|AVR.ActiveCfg = Release|AVR
 		{94C5A9C2-7A35-4EF6-A56F-C97C08512193}.Release|AVR.Build.0 = Release|AVR
+		{50927FA3-B508-479D-9BC5-278A817A1595}.Debug|AVR.ActiveCfg = Debug|AVR
+		{50927FA3-B508-479D-9BC5-278A817A1595}.Debug|AVR.Build.0 = Debug|AVR
+		{50927FA3-B508-479D-9BC5-278A817A1595}.Release|AVR.ActiveCfg = Release|AVR
+		{50927FA3-B508-479D-9BC5-278A817A1595}.Release|AVR.Build.0 = Release|AVR
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

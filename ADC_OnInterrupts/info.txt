@@ -1,0 +1,4 @@
+Przetwornik nasyca się przy:
+REF 1V		940 mV
+REF 3.3V	2.71 V
+
