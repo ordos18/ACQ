@@ -81,8 +81,6 @@ int main(void){
 	while(1) {
 		uint8_t c;
 		
-		usart_serial_getchar(&USARTE0,&c);
-		
 		dma_channel_enable(DMA_CHANNEL);
 		while (dma_channel_is_busy(DMA_CHANNEL));
 		

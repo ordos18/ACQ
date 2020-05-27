@@ -85,8 +85,6 @@ int main(void){
 	while(1) {
 		uint8_t c;
 		
-		usart_serial_getchar(&USARTE0,&c);
-		
 		ioport_set_pin_level(ULTRAS_TRIGGER, IOPORT_PIN_LEVEL_HIGH);
 		delay_ms(1);
 		ioport_set_pin_level(ULTRAS_TRIGGER, IOPORT_PIN_LEVEL_LOW);
